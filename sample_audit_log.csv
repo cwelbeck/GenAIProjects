@@ -1,0 +1,7 @@
+timestamp,user,action,object_type,object_id
+2025-06-01 08:32:10,jdoe,viewed invoice #3421,invoice,3421
+2025-06-01 08:35:20,asmith,updated contract #881,contract,881
+2025-06-01 09:10:45,jdoe,deleted file 'Q1_summary.pdf',file,Q1_summary.pdf
+2025-06-01 09:45:00,mlewis,approved payment #P113,payment,P113
+2025-06-01 10:15:12,asmith,viewed invoice #3421,invoice,3421
+2025-06-01 11:00:30,jdoe,exported report 'monthly_sales.xlsx',report,monthly_sales.xlsx

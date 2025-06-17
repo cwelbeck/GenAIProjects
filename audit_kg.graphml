@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="jdoe">
+  <data key="d0">jdoe</data>
+</node>
+<node id="asmith">
+  <data key="d0">asmith</data>
+</node>
+<node id="mlewis">
+  <data key="d0">mlewis</data>
+</node>
+<node id="invoice_3421">
+  <data key="d0">invoice_3421</data>
+</node>
+<node id="contract_881">
+  <data key="d0">contract_881</data>
+</node>
+<node id="Q1_summary.pdf">
+  <data key="d0">Q1_summary.pdf</data>
+</node>
+<node id="payment_P113">
+  <data key="d0">payment_P113</data>
+</node>
+<node id="monthly_sales.xlsx">
+  <data key="d0">monthly_sales.xlsx</data>
+</node>
+<edge source="jdoe" target="invoice_3421">
+  <data key="d1">viewed</data>
+</edge>
+<edge source="jdoe" target="Q1_summary.pdf">
+  <data key="d1">deleted</data>
+</edge>
+<edge source="jdoe" target="monthly_sales.xlsx">
+  <data key="d1">exported</data>
+</edge>
+<edge source="asmith" target="contract_881">
+  <data key="d1">updated</data>
+</edge>
+<edge source="asmith" target="invoice_3421">
+  <data key="d1">viewed</data>
+</edge>
+<edge source="mlewis" target="payment_P113">
+  <data key="d1">approved</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,69 @@
+{
+  "graph": "kg_audit.png",
+  "nodes": [
+    {
+      "id": "jdoe",
+      "label": "jdoe"
+    },
+    {
+      "id": "asmith",
+      "label": "asmith"
+    },
+    {
+      "id": "mlewis",
+      "label": "mlewis"
+    },
+    {
+      "id": "invoice_3421",
+      "label": "invoice_3421"
+    },
+    {
+      "id": "contract_881",
+      "label": "contract_881"
+    },
+    {
+      "id": "Q1_summary.pdf",
+      "label": "Q1_summary.pdf"
+    },
+    {
+      "id": "payment_P113",
+      "label": "payment_P113"
+    },
+    {
+      "id": "monthly_sales.xlsx",
+      "label": "monthly_sales.xlsx"
+    }
+  ],
+  "edges": [
+    {
+      "source": "jdoe",
+      "target": "invoice_3421",
+      "label": "viewed"
+    },
+    {
+      "source": "asmith",
+      "target": "contract_881",
+      "label": "updated"
+    },
+    {
+      "source": "jdoe",
+      "target": "Q1_summary.pdf",
+      "label": "deleted"
+    },
+    {
+      "source": "mlewis",
+      "target": "payment_P113",
+      "label": "approved"
+    },
+    {
+      "source": "asmith",
+      "target": "invoice_3421",
+      "label": "viewed"
+    },
+    {
+      "source": "jdoe",
+      "target": "monthly_sales.xlsx",
+      "label": "exported"
+    }
+  ]
+}
